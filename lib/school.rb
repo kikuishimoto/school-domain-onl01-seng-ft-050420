@@ -4,16 +4,16 @@ class School
     @name = name
     @roster = {}
   end
-  def name 
-    @name 
-  end 
+  def name
+    @name
+  end
 
-  def roster 
+  def roster
     @roster
   end
 
   def add_student(grade, student_name)
-    @grade = grade 
+    @grade = grade
     @student_name = student_name
 
     roster[@grade] =[]
