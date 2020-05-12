@@ -16,8 +16,8 @@ class School
     @grade = grade
     @student_name = student_name
 
-    roster[@grade] =[]
-    roster[@grade] << @student_name
+    roster[@student_name] =[]
+    roster[@student_name] << @grade
   end
 
 
